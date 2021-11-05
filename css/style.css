@@ -12,13 +12,16 @@ body {
 .container-header {
     height: 80px;
     line-height: 80px;
-    background-color: white;
 }
 
 .container1° {
-    border: 2px red solid;
-    width: 95%;
+    width: 100%;
     margin: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: white;
+    padding: 0 20px 0 20px;
 }
 
 .clearfix::after {
@@ -29,7 +32,6 @@ body {
 
 .img-header {
     float: left;
-    border: 2px red solid;
 }
 
 .L {
@@ -60,6 +62,11 @@ a {
 
 .left{
     float: right;
+}
+
+.container-img-top {
+    height: 1700px;
+    background-color: #b5d1e7;
 }
 
 
