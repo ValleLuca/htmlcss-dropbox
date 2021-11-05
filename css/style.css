@@ -30,15 +30,15 @@ body {
     display: table;
 }
 
-.img-header {
-    float: left;
+.Logo {
+    vertical-align: middle;
 }
 
 .L {
     float: left;
 }
 
-.Botton a{
+.Botton {
     background-color: blue;
     padding: 10px 15px;
     color: white;
@@ -59,16 +59,41 @@ a {
     text-decoration: none;
 }
 
-
-.left{
-    float: right;
-}
-
 .container-img-top {
-    height: 1700px;
+    height: 700px;
     background-color: #b5d1e7;
 }
 
+.container-top-center {
+    max-width: 80%;
+    margin:auto;
+}
+
+.container-testo {
+    padding-top: 70px;
+}
+
+.container-testo h1{
+    font-size: 75px;
+    margin-top: 50px;
+}
+
+.container-testo-top-laterale {
+    padding-top: 40px;
+    max-height: 100px;
+    max-width: 600px;
+    font-size: large;
+}
+
+.center {
+    max-width: 290px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.center a {
+    color: white;
+}
 
 
 
