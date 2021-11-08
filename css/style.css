@@ -161,12 +161,31 @@ a {
     margin-top: 30px;
 }
 
-.container-box-top {
+.top {
     width: 30%;
     border: 1px solid black;
     text-align: center;
     padding: 10px 20px;
     float: left;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
+.box-center {
+    width: 30%;
+    border: 1px solid black;
+    float: left;
+    margin-left: 3%;
+}
+
+.box-center h3 {
+    padding: 20px 20px 10px 20px;
+}
+
+.box-center strong{
+    padding: 0 0 0 20px;
+}
+
+.Mese {
+    padding: 20px 0 0 20px;
+    color: #86929d;
+}
