@@ -116,7 +116,7 @@ a {
     top: 110px;
 }
 
-.fas:hover {
+.fa-arrow-down:hover {
     cursor: pointer;
     box-shadow: 2px 2px #bcbcbc;
 }
@@ -155,5 +155,18 @@ a {
 
 .container-radio input {
     margin-left: 10px;
+}
+
+.container-box {
+    margin-top: 30px;
+}
+
+.container-box-top {
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+    float: left;
+    margin-left: 2%;
 }
 
