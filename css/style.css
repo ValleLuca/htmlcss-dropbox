@@ -22,6 +22,7 @@ body {
     top: 0;
     background-color: white;
     padding: 0 20px 0 20px;
+    z-index: 1;
 }
 
 .clearfix::after {
@@ -60,7 +61,7 @@ a {
 }
 
 .container-img-top {
-    height: 700px;
+    height: 850px;
     background-color: #b5d1e7;
 }
 
@@ -68,6 +69,8 @@ a {
     max-width: 80%;
     margin:auto;
 }
+
+
 
 .container-testo {
     padding-top: 70px;
@@ -78,6 +81,10 @@ a {
     margin-top: 50px;
 }
 
+.container-generale-text-img {
+    height: 500px;
+}
+
 .container-testo-top-laterale {
     padding-top: 40px;
     max-height: 100px;
@@ -86,13 +93,33 @@ a {
 }
 
 .center {
-    max-width: 290px;
-    margin-top: 80px;
-    text-align: center;
+    width: 290px;
+    position: relative;
+    top: 80px;
 }
 
 .center a {
+    text-align: center;
     color: white;
+    
+}
+
+#Annulla {
+    position: relative;
+    top: 90px;
+    width: 300px;
+}
+
+.container-img-right-out {
+    float: right;
+    width: 60%;
+}
+
+
+.container-img-right-out img {
+    height:600px;
+    background-size: cover;
+    margin-top: -100px;
 }
 
 
