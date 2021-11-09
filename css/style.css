@@ -392,3 +392,17 @@ a {
      display: inline-block;
  }
 
+.azienda-left {
+    width: 29%;
+    display: inline-block;
+}
+
+.square {
+    width: 50%;
+    height: 50%;
+}
+
+.designit {
+    background-color: red;
+}
+
