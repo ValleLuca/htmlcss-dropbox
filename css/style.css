@@ -361,3 +361,34 @@ a {
     width: 100%;
 }
 
+.container-6img h3 {
+    font-size: 30px;
+    margin: 20px 0;
+    font-weight: 900;
+}
+
+.container-6img p {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+ .container-6img span {
+     text-decoration: underline;
+ }
+
+ .titolo-aziende {
+    margin-top: 150px;
+ }
+
+ .titolo-aziende h2 {
+     font-size: 70px;
+     font-weight: 900;
+ }
+
+ .titolo-aziende a {
+     text-decoration: underline;
+     color: blue;
+     margin: 50px 0;
+     display: inline-block;
+ }
+
