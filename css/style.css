@@ -168,20 +168,21 @@ a {
     padding: 10px 20px;
     float: left;
     margin-left: 3%;
+    display: inline-block;
 }
 
-.box-center {
+.box-left, .center-team, .right-team {
     width: 30%;
     border: 1px solid black;
     float: left;
     margin-left: 3%;
 }
 
-.box-center h3 {
+.box-left h3, .center-team h3, .right-team h3 {
     padding: 20px 20px 10px 20px;
 }
 
-.box-center strong{
+.box-left strong, .center-team strong, .right-team strong{
     padding: 20px 0 0 20px;
 }
 
@@ -252,3 +253,9 @@ a {
     padding-top: 20px;
 }
 
+.box-inferiore {
+    margin-top: 40px;
+    margin-left: 3%;
+    border: 1px solid black;
+    text-align: center;
+}
