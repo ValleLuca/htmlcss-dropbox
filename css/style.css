@@ -310,10 +310,54 @@ a {
 }
 
 .container-img {
-    margin-top: ;
+    margin-top: 150px;
 }
 
 .img-left {
-    height: 300px;
-
+    float: left;
+    margin-left: 80px;
 }
+
+.img-left img {
+    height: 500px;
+}
+
+.testo-right {
+    float: right;
+    width: 30%;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.testo-right h3 {
+    font-size: 25px;
+    margin-bottom: 80px;
+    font-weight: 900;
+}
+
+.testo-right p {
+    font-weight: 700;
+}
+
+.testo-right a {
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-top: 40px;
+    display: inline-block;
+    color: black;
+}
+
+.box-operation {
+    margin-top: 100px;
+}
+
+.container-6img {
+   width: 30%;
+   margin: 30px 20px;
+   display: inline-block;
+}
+
+.container-6img img {
+    width: 100%;
+}
+
