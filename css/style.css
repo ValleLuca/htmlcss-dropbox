@@ -159,6 +159,8 @@ a {
 
 .container-box {
     margin-top: 30px;
+    width: 95%;
+    margin: auto;
 }
 
 .top {
@@ -167,15 +169,31 @@ a {
     text-align: center;
     padding: 10px 20px;
     float: left;
-    margin-left: 3%;
-    display: inline-block;
 }
 
-.box-left, .center-team, .right-team {
+.center-top, .center-team {
+    margin: 0 3% 0 5%;
+}
+
+.right {
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+    float: right;
+
+}
+
+.box-left, .center-team {
     width: 30%;
     border: 1px solid black;
     float: left;
-    margin-left: 3%;
+}
+
+.right-team {
+    width: 30%;
+    border: 1px solid black;
+    float: right;
 }
 
 .box-left h3, .center-team h3, .right-team h3 {
@@ -255,7 +273,47 @@ a {
 
 .box-inferiore {
     margin-top: 40px;
-    margin-left: 3%;
     border: 1px solid black;
     text-align: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.box-contattaci {
+    padding-left: 20px;
+    border-top: 1px solid black;
+    text-align: left;
+    position: relative;
+}
+
+.box-contattaci h2 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.box-contattaci h3 {
+    padding-bottom: 20px;
+}
+
+.box-contattaci p {
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.box-contattaci a {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: blue;
+    padding: 10px 80px;
+    color: white;
+}
+
+.container-img {
+    margin-top: ;
+}
+
+.img-left {
+    height: 300px;
+
 }
