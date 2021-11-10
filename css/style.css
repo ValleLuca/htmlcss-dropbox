@@ -389,12 +389,12 @@ a {
  }
 
 .aziende-loghi {
-    width: 35%;
+    width: 30%;
     display: inline-block;
 }
 
 .aziende-center {
-    width: 59%;
+    width: 40%;
 }
 
 .aziende-loghi img {
@@ -445,4 +445,9 @@ a {
 
 .aziende-center img {
     height: 50px;
+}
+
+.prova {
+    background-color: #b4d1e6;
+
 }
